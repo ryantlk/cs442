@@ -1,0 +1,43 @@
+Authors: 	Ryan Winter, 
+			GL initialisation/vertex & fragment shaders code by Wayne Cochran
+
+StudentID: 11267990
+
+Email: ryan.j.winter@gmail.com
+
+Program Description:
+
+	This program was designing a shaded toroidal spiral. The program is split into three
+seperate sources. The first draws just the spline of the spiral. The second draws the
+wireframe mesh of the spiral. The third is the final toroidal spiral which is fully shaded.
+
+How to Build:
+
+Building -
+
+	Once the file is uncompressed simply run the command make in terminal.
+
+Running - 
+
+	After having run make there are three seperate programs below is the command to run each
+and a small description of each.
+
+	./toroid_spline (this displays the spline curve)
+	./toroid_mesh		(this displays the wireframe mesh)
+	./toroid_shaded	(this displays the fully shaded toroidal spiral)
+
+List of Files:
+
+Makefile - The file to build the program from included source files.
+
+toroid_spline.c - The source file the implements the toroidal spiral spline curve in opengl using glut
+
+toroid_mesh.c - The source file the implements the toroidal spiral wireframe mesh in opengl using glut
+
+toroid_shaded.c - The source file the implements the toroidal spiral fully shaded in opengl using glut
+
+matrix.c - Source file includes all required matrix operations.
+
+matrix.h - Header file for matrix.c
+
+README - The README for the program (this file).
