@@ -1,0 +1,42 @@
+Authors: 	Ryan Winter, 
+			GL initialisation/vertex & fragment shaders code by Wayne Cochran
+
+StudentID: 11267990
+
+Email: ryan.j.winter@gmail.com
+
+Program Description:
+
+	This program implements a superquadric shape in opengl. The program also implements texture mapping on the shape.
+
+How to Build:
+
+Building -
+
+	Once the file is uncompressed simply run the command make in terminal.
+
+Running - 
+
+	./superquadric
+
+Commands -
+
+	j/J - decreases/increases the n bulge factor
+
+	k/K - decreases/increases the m bulge factor
+
+	n/N - decreases/increases the N slice/dice value
+
+	m/M - decreases/increases the M slice/dice value
+
+List of Files:
+
+Makefile - The file to build the program from included source files.
+
+superquadric.c - The source file the implements the superquadric in opengl using glut
+
+matrix.c - Source file includes all required matrix operations.
+
+matrix.h - Header file for matrix.c
+
+README - The README for the program (this file).
